@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+
 .clearfix:after {
     content: '';
     display: table;
@@ -26,6 +30,26 @@ header {
 header div {
     height: 100%;
     background-color: yellow;
+}
+
+nav {
+    text-align: center;
+    background-color: #504741;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    color: white;
+}
+
+a:hover {
+    background-color: #302b27;
 }
 
 .container_int {
