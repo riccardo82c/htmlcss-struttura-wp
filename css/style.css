@@ -20,60 +20,77 @@
 header {
     width: 100%;
     height: 20%;
+    padding: 10px;
+}
+
+header div {
+    width: 100%;
+    height: 100%;
     background-color: yellow;
+
 }
 
 .container_int {
     width: 100%;
     height: 70%;
-    background-color: grey;
+
     padding: 10px;
 }
 
-section.left, section.right {
+.container_int div {
+    width: 100%;
+    height: 100%;
+
+}
+
+aside.left {
+    width: 30%;
+    height: 90%;
+    padding: 10px;
+    float: left;
+}
+
+aside.right {
     width: 30%;
     height: 100%;
     padding: 10px;
     float: left;
 }
 
-section.center {
+
+
+main.center {
     width: 40%;
     height: 100%;
     padding: 10px;
     float:left;
 }
 
-.left aside {
+.left div {
     height: 100%;
     width: 100%;
     background-color: pink;
 }
 
-.right aside {
+.right div {
     height: 100%;
     width: 100%;
 
 
 }
 
-.center main {
+.center div {
     height: 100%;
     width: 100%;
     background-color: purple;
 }
 
 
-section.right aside {
-
-
-}
-
-section.right aside .card {
+.right .card {
     height: 40%;
     width: 100%;
     background-color: pink;
-    border: 1px solid black;
+    
 }
 
 .card:first-child {
@@ -86,5 +103,13 @@ section.right aside .card {
 
 footer {
     height: 10%;
+    padding: 10px;
+
+}
+
+footer div {
+    height: 100%;
+    width: 100%;
     background-color: lightblue;
+
 }
