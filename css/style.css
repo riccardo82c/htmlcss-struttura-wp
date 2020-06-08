@@ -16,27 +16,46 @@ body {
 }
 
 .container_ext {
-
-    width: 80vw;
+    width: 1400px;
     height: 100vh;
     margin: 20px auto;
     /* padding: 10px; */
-
 }
 
 header {
     height: 30%;
     padding: 10px;
-    background-color: cornsilk;
+    background-color: #fff;
 }
 
-header div {
+header .banner  {
     height: 100%;
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
-    background-color: cornsilk;
-    background-position: center center;
+    background-color: #fff;
+    background-position: center;
     background-size: cover;
+    position: relative;
 }
+
+header .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+.title h2 {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+
 
 nav {
     text-align: center;
@@ -45,10 +64,9 @@ nav {
 }
 
 nav ul {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     list-style: none;
-
 }
 
 nav li {
@@ -63,8 +81,10 @@ nav a {
     text-decoration: none;
     display: block;
     padding: 16px 0;
+    letter-spacing: 0.2rem;
     color: white;
     border-right: 1px solid rgb(129, 127, 127);
+    transition: all .3s;
 }
 
 nav li:last-child a {
@@ -80,14 +100,16 @@ nav li a:hover {
 }
 
 aside.left {
-    width: 30%;
+    width: 25%;
     padding: 20px 20px 20px 0;
     float: left;
 }
 
-.left div{
+.left div {
     text-align: left;
-    padding: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    margin-bottom: 10px;
 }
 
 .left h3 {
@@ -97,18 +119,22 @@ aside.left {
 }
 
 .left ul {
-
     list-style: none;
-
 }
-
 
 .left a {
     display: block;
     padding: 8px;
     font-size: 0.9rem;
+    font-weight: 300;
     text-decoration: none;
     color: #99cc33
+}
+
+.left a:hover {
+    background-color: rgba(0, 0, 0, .04);
+    box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
+    text-decoration: underline;
 }
 
 aside.right {
@@ -119,7 +145,7 @@ aside.right {
 }
 
 main {
-    width: 40%;
+    width: 45%;
     height: 100%;
     padding: 20px 0;
     float: left;
@@ -151,7 +177,7 @@ main div {
 footer {
     height: 10%;
     padding: 10px;
-    background-color: cornsilk;
+    background-color: #fff;
 }
 
 footer div {
