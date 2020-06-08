@@ -44,7 +44,7 @@ nav {
     text-transform: uppercase;
 }
 
-ul {
+nav ul {
     width: 60%;
     margin: 0 auto;
     list-style: none;
@@ -86,24 +86,29 @@ aside.left {
 }
 
 .left div{
+    text-align: left;
     padding: 10px;
 }
 
 .left h3 {
     font-size: 1rem;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .left ul {
-    display: block;
-    text-align: left;
+
+    list-style: none;
+
 }
 
+
 .left a {
-    display: inline-block;
-    padding: 5px;
-    font-size: 0.8rem;
+    display: block;
+    padding: 8px;
+    font-size: 0.9rem;
     text-decoration: none;
+    color: #99cc33
 }
 
 aside.right {
@@ -122,7 +127,7 @@ main {
 
 .left div {
     height: 100%;
-    background-color: pink;
+    background-color: #ffffff;
 }
 
 .right div {
