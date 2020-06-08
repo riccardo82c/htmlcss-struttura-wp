@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.clearfix:after{
+.clearfix:after {
     content: '';
     display: table;
     clear: both;
@@ -14,33 +14,22 @@
     width: 80vw;
     height: 100vh;
     margin: 0 auto;
-    padding: 10px;
+    /* padding: 10px; */
+    background-color: cornsilk;
 }
 
 header {
-    width: 100%;
     height: 20%;
     padding: 10px;
 }
 
 header div {
-    width: 100%;
     height: 100%;
     background-color: yellow;
-
 }
 
 .container_int {
-    width: 100%;
     height: 70%;
-
-    padding: 10px;
-}
-
-.container_int div {
-    width: 100%;
-    height: 100%;
-
 }
 
 aside.left {
@@ -57,59 +46,42 @@ aside.right {
     float: left;
 }
 
-
-
-main.center {
+main {
     width: 40%;
     height: 100%;
     padding: 10px;
-    float:left;
+    float: left;
 }
 
 .left div {
     height: 100%;
-    width: 100%;
     background-color: pink;
 }
 
 .right div {
     height: 100%;
-    width: 100%;
-
-
 }
 
-.center div {
+main div {
     height: 100%;
-    width: 100%;
     background-color: purple;
 }
 
-
 .right .card {
     height: 40%;
-    width: 100%;
     background-color: pink;
-    
 }
 
 .card:first-child {
-
     margin-bottom: 10px;
 }
-
-
-
 
 footer {
     height: 10%;
     padding: 10px;
-
 }
 
 footer div {
     height: 100%;
-    width: 100%;
     background-color: lightblue;
-
 }
