@@ -44,10 +44,17 @@ section.center {
     float:left;
 }
 
-.left aside, .right aside {
+.left aside {
     height: 100%;
     width: 100%;
     background-color: pink;
+}
+
+.right aside {
+    height: 100%;
+    width: 100%;
+
+
 }
 
 .center main {
@@ -57,7 +64,22 @@ section.center {
 }
 
 
+section.right aside {
 
+
+}
+
+section.right aside .card {
+    height: 40%;
+    width: 100%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.card:first-child {
+
+    margin-bottom: 10px;
+}
 
 
 
