@@ -6,6 +6,7 @@
 
 body {
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix:after {
@@ -15,65 +16,107 @@ body {
 }
 
 .container_ext {
+
     width: 80vw;
     height: 100vh;
-    margin: 0 auto;
+    margin: 20px auto;
     /* padding: 10px; */
-    background-color: cornsilk;
+
 }
 
 header {
-    height: 20%;
+    height: 30%;
     padding: 10px;
+    background-color: cornsilk;
 }
 
 header div {
     height: 100%;
-    background-color: yellow;
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+    background-color: cornsilk;
+    background-position: center center;
+    background-size: cover;
 }
 
 nav {
     text-align: center;
     background-color: #504741;
+    text-transform: uppercase;
+}
+
+ul {
+    width: 60%;
+    margin: 0 auto;
+    list-style: none;
+
 }
 
 nav li {
-    display: inline-block;
+    float: left;
+    width: calc(100% / 5);
+    text-decoration: none;
 }
 
 nav a {
+    font-size: 0.6rem;
+    font-weight: 300;
     text-decoration: none;
     display: block;
-    padding: 16px;
+    padding: 16px 0;
     color: white;
+    border-right: 1px solid rgb(129, 127, 127);
 }
 
-a:hover {
+nav li:last-child a {
+    border-right: none;
+}
+
+nav li a:hover {
     background-color: #302b27;
 }
 
 .container_int {
-    height: 70%;
+    height: 60%;
 }
 
 aside.left {
     width: 30%;
-    height: 90%;
-    padding: 10px;
+    padding: 20px 20px 20px 0;
     float: left;
+}
+
+.left div{
+    padding: 10px;
+}
+
+.left h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.left ul {
+    display: block;
+    text-align: left;
+}
+
+.left a {
+    display: inline-block;
+    padding: 5px;
+    font-size: 0.8rem;
+    text-decoration: none;
 }
 
 aside.right {
     width: 30%;
     height: 100%;
-    padding: 10px;
+    padding: 20px 0 20px 20px;
     float: left;
 }
 
 main {
     width: 40%;
     height: 100%;
-    padding: 10px;
+    padding: 20px 0;
     float: left;
 }
 
@@ -103,6 +146,7 @@ main div {
 footer {
     height: 10%;
     padding: 10px;
+    background-color: cornsilk;
 }
 
 footer div {
