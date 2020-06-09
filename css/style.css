@@ -16,8 +16,8 @@ body {
 }
 
 .container_ext {
-    width: 1400px;
-    height: 100vh;
+    width: 80%;
+    height: 120vh;
     margin: 20px auto;
     /* padding: 10px; */
 }
@@ -28,7 +28,7 @@ header {
     background-color: #fff;
 }
 
-header .banner  {
+header .banner {
     height: 100%;
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
     background-color: #fff;
@@ -47,15 +47,14 @@ header .title {
     text-transform: uppercase;
 }
 
-.title h1 {
+header .title h1 {
     font-size: 3rem;
 }
-.title h2 {
+
+header .title h2 {
     font-weight: 300;
     font-size: 1.3rem;
 }
-
-
 
 nav {
     text-align: center;
@@ -64,7 +63,7 @@ nav {
 }
 
 nav ul {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     list-style: none;
 }
@@ -81,7 +80,7 @@ nav a {
     text-decoration: none;
     display: block;
     padding: 16px 0;
-    letter-spacing: 0.2rem;
+    letter-spacing: 2px;
     color: white;
     border-right: 1px solid rgb(129, 127, 127);
     transition: all .3s;
@@ -99,30 +98,30 @@ nav li a:hover {
     height: 60%;
 }
 
-aside.left {
+.container_int aside.left {
     width: 25%;
     padding: 20px 20px 20px 0;
     float: left;
 }
 
-.left div {
+.container_int .left div {
     text-align: left;
     padding: 15px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.left h3 {
+.container_int .left h3 {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.left ul {
+.container_int .left ul {
     list-style: none;
 }
 
-.left a {
+.container_int .left a {
     display: block;
     padding: 8px;
     font-size: 0.9rem;
@@ -131,47 +130,47 @@ aside.left {
     color: #99cc33
 }
 
-.left a:hover {
+.container_int .left a:hover {
     background-color: rgba(0, 0, 0, .04);
     box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
     text-decoration: underline;
 }
 
-aside.right {
+.container_int aside.right {
     width: 30%;
     height: 100%;
     padding: 20px 0 20px 20px;
     float: left;
 }
 
-main {
+.container_int main {
     width: 45%;
     height: 100%;
     padding: 20px 0;
     float: left;
 }
 
-.left div {
+.container_int .left div {
     height: 100%;
     background-color: #ffffff;
 }
 
-.right div {
+.container_int .right div {
     height: 100%;
 }
 
-main div {
+.container_int main div {
     height: 100%;
     background-color: purple;
 }
 
-.right .card {
+.container_int .right .card {
     height: 40%;
     background-color: pink;
 }
 
-.card:first-child {
-    margin-bottom: 10px;
+.container_int .card:first-child {
+    margin-bottom: 20px;
 }
 
 footer {
